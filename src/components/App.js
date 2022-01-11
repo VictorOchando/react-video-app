@@ -15,7 +15,7 @@ const App = () => {
     }, [videos]);
 
     return (
-        <div className="ui container">
+        <div className="ui container" style={{ marginTop: "10px" }}>
             <SearchBar searchTermSubmit={search} />
             <div className="ui grid">
                 <div className="ui row">
